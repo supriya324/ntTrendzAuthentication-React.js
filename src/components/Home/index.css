@@ -1,0 +1,57 @@
+.home-mobile-image {
+  width: 130px;
+  height: 170px;
+}
+@media screen and (min-width: 767px) {
+  .home-mobile-image {
+    display: none;
+  }
+}
+.home-larger-image {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .home-larger-image {
+    display: none;
+    width: 90px;
+    height: 70px;
+  }
+}
+.const {
+  display: flex;
+}
+.heading {
+  color: #1e293b;
+  margin-left: 12px;
+}
+.paragraph {
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 36px;
+  line-height: 28px;
+  color: #64748b;
+  width: 250px;
+  margin-left: 15px;
+}
+.shop-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 7px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 767px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.const {
+  display: flex;
+  flex-direction: column;
+}
