@@ -38,7 +38,7 @@ class LoginForm extends Component {
     if (response.ok === true) {
       this.onSubmitSuccess()
     } else {
-      this.onFailure(data.errorMsg)
+      this.onFailure(data.error_msg)
     }
   }
 
